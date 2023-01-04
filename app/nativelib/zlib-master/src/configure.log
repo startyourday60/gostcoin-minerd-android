@@ -1,70 +1,88 @@
 --------------------
+./configure --host=aarch64 --disable-dependency-tracking
+Wed Jan  4 20:10:21 MSK 2023
+unknown option: --host=aarch64
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --disable-dependency-tracking
+Wed Jan  4 20:10:29 MSK 2023
+unknown option: --disable-dependency-tracking
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
 ./configure
-Wed Jan  4 17:40:23 MSK 2023
-=== ztest25244.c ===
+Wed Jan  4 20:10:33 MSK 2023
+=== ztest27744.c ===
 extern int getchar();
 int hello() {return getchar();}
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c ztest27744.c
 ... using gcc
 
 Checking for obsessive-compulsive compiler options...
-=== ztest25244.c ===
+=== ztest27744.c ===
 int foo() { return 0; }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include ztest27744.c
 
 Checking for shared library support...
-=== ztest25244.c ===
+=== ztest27744.c ===
 extern int getchar();
 int hello() {return getchar();}
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -w -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -fPIC ztest25244.c
--Icurl-android-ios-master/prebuilt-with-ssl/android/include -fPIC -o ztest25244.so ztest25244.o
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -w -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -fPIC ztest27744.c
+-Icurl-android-ios-master/prebuilt-with-ssl/android/include -fPIC -o ztest27744.so ztest27744.o
 ./configure: line 390: -Icurl-android-ios-master/prebuilt-with-ssl/android/include: No such file or directory
 (exit code 127)
 No shared library support; try without defining CC and CFLAGS
-Building static library libz.a version 1.2.13 with /cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang.
+Building static library libz.a version 1.2.13 with /cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <stdio.h>
 #include <stdlib.h>
 size_t dummy = 0;
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include ztest27744.c
 Checking for size_t... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <sys/types.h>
 off64_t dummy = 0;
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest27744.c
 Checking for off64_t... Yes.
 Checking for fseeko... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <string.h>
 #include <errno.h>
 int main() { return strlen(strerror(errno)); }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 -o ztest25244 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 -o ztest27744 ztest27744.c
 Checking for strerror... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <unistd.h>
 int main() { return 0; }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest27744.c
 Checking for unistd.h... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <stdarg.h>
 int main() { return 0; }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest27744.c
 Checking for stdarg.h... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <stdio.h>
 #include <stdarg.h>
 #include "zconf.h"
@@ -76,10 +94,10 @@ int main()
   return 0;
 }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest27744.c
 Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <stdio.h>
 #include <stdarg.h>
 int mytest(const char *fmt, ...)
@@ -96,10 +114,10 @@ int main()
   return (mytest("Hello%d\n", 1));
 }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 -o ztest25244 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 -o ztest27744 ztest27744.c
 Checking for vsnprintf() in stdio.h... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #include <stdio.h>
 #include <stdarg.h>
 int mytest(const char *fmt, ...)
@@ -117,10 +135,10 @@ int main()
   return (mytest("Hello%d\n", 1));
 }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest27744.c
 Checking for return value of vsnprintf()... Yes.
 
-=== ztest25244.c ===
+=== ztest27744.c ===
 #define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
 int ZLIB_INTERNAL foo;
 int main()
@@ -128,19 +146,19 @@ int main()
   return 0;
 }
 ===
-/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest25244.c
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang -c -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 ztest27744.c
 Checking for attribute(visibility) support... Yes.
 
 ALL = static all64
 AR = ar
 ARFLAGS = rc
-CC = /cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang
+CC = /cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang
 CFLAGS = -Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 CPP =
 EXE = .exe
 LDCONFIG = ldconfig
 LDFLAGS = -L/.
-LDSHARED = /cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang
+LDSHARED = /cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang
 LDSHAREDLIBC = -lc
 OBJC = $(OBJZ) $(OBJG)
 PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)

@@ -12,13 +12,173 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f09135-2f01-402a-892c-fcb71cc3f017" name="Changes" comment="" />
+    <list default="true" id="28f09135-2f01-402a-892c-fcb71cc3f017" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ac49daada529d8432c6c4376d4eb432e1b45cf502a28ad100d86e44575d8aff7_0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ac49daada529d8432c6c4376d4eb432e1b45cf502a28ad100d86e44575d8aff7_0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ac49daada529d8432c6c4376d4eb432e1b45cf502a28ad100d86e44575d8aff7_1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ac49daada529d8432c6c4376d4eb432e1b45cf502a28ad100d86e44575d8aff7_1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/BuildConfig.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/LoginDataSource.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/LoginDataSource.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/LoginRepository.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/LoginRepository.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/Result$Error.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/Result$Error.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/Result$Success.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/Result$Success.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/Result.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/Result.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/model/LoggedInUser.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/data/model/LoggedInUser.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/databinding/ActivityLoginBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/databinding/ActivityLoginBinding.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoggedInUserView.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoggedInUserView.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginActivity$onCreate$timer$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginActivity$onCreate$timer$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginFormState.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginFormState.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginResult.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginResult.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginViewModelFactory.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ru/xmagi/mymaner/ui/login/LoginViewModelFactory.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/ru/xmagi/mymaner/ui/login/LoginActivity$onCreate$timer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/ru/xmagi/mymaner/ui/login/LoginActivity$onCreate$timer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/ru/xmagi/mymaner/ui/login/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/ru/xmagi/mymaner/ui/login/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/dump.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/dump.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/hashtable.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/hashtable.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/libjansson.a" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/libjansson.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/load.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/load.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/strbuffer.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/strbuffer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/utf.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/utf.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compat/jansson/value.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compat/jansson/value.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/compil.bat" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/compil.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/config.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/config.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/config.status" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/config.status" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/libcurl.a" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/libcurl.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/libz.a" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/libz.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-Xcoin.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-Xcoin.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-aes_helper.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-aes_helper.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-blake.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-blake.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-bmw.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-bmw.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-cpu-miner.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-cpu-miner.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-cubehash.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-cubehash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-echo.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-echo.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-gost.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-gost.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-groestl.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-groestl.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-jh.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-jh.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-keccak.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-keccak.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-luffa.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-luffa.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-quark.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-quark.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-scrypt-arm.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-scrypt-arm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-scrypt-x64.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-scrypt-x64.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-scrypt-x86.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-scrypt-x86.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-scrypt.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-scrypt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-sha2-arm.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-sha2-arm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-sha2-x64.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-sha2-x64.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-sha2-x86.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-sha2-x86.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-sha2.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-sha2.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-shavite.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-shavite.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-simd.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-simd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-skein.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-skein.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/minerd-util.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/minerd-util.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/adler32.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/adler32.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/compress.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/compress.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/configure.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/configure.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/crc32.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/crc32.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/deflate.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/deflate.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example.exe" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example64.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example64.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/example64.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzclose.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzclose.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzlib.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzlib.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzread.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzread.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzwrite.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/gzwrite.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/infback.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/infback.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/inffast.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/inffast.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/inflate.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/inflate.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/inftrees.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/inftrees.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/libz.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip64.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip64.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/minigzip64.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/trees.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/trees.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/uncompr.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/uncompr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nativelib/zlib-master/src/zutil.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/nativelib/zlib-master/src/zutil.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/xmagi/mymaner/ui/login/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/xmagi/mymaner/ui/login/LoginActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[aab496f4]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[KFRO4TTKQS6TKJAA]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -30,10 +190,14 @@
     <option name="KEY_ALIAS" value="key0" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JqMS2JG4fWn66NDppsByTNuo33" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,8 +210,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ANDROIDSDK1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -136,5 +301,16 @@
       <updated>1672801185441</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

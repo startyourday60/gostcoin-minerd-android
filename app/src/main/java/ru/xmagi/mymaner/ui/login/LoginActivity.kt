@@ -5,44 +5,68 @@ import android.os.Build
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
-import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import ru.xmagi.mymaner.databinding.ActivityLoginBinding
 import java.io.File
 import java.io.FileOutputStream
-import java.lang.Thread.sleep
+
 
 
 class LoginActivity : AppCompatActivity() {
+    fun averageKHCount(toRegex: String): String {
+        val myRegex = Regex("\\[\\w+\\-\\w+\\-\\d+ \\w+:\\w+\\:\\w+\\] thread \\d\\: \\d+")
+        // val acepptedCount = Regex("accepted: \\d+\\/\\d+ \\(.+\\), \\d+.\\d+").findAll(toRegex).map { it.groupValues[0] }.toList().size + 1 // todo:fix logic
+        val acepptedCount = Regex("\\[\\w+\\-\\w+\\-\\d+ \\w+:\\w+\\:\\w+\\] thread \\d\\: \\d+").findAll(toRegex).map { it.groupValues[0] }.toList().size + 1
+        val _p = myRegex.findAll(toRegex).map { it.groupValues[0] }.toList()
+        // Log.d("toRegex", toRegex)
+        var fullHash: Double = 0.0
+        for(w in _p) {
+            // Log.d("kHCOunter", w.split(" ")[4])
+            val tmp = w.split(" ")[4].toLong()
+            fullHash += tmp
+        }
+        val average = Math.floor(((fullHash / acepptedCount)/1000))
+        return "AVERAGE(not fact) hashrate now is(average of ALL TIME): $average kh/s"
+    }
 
-    // private lateinit var loginViewModel: LoginViewModel
     private lateinit var binding: ActivityLoginBinding
-    var curProc : Process? = null ; //maybe lateinit or lazy()
-    var lastMsg = ""
-   // var curStream: InputStream? = null
+    private var curProc : Process? = null ; //maybe lateinit or lazy()
+    private var lastMsg = ""
    fun getStreamData(proc: Process): String {
        Log.d("getProcDataStream", "return data array")
-       // System.out.flush()
-       // val input = proc.getInputStream()
-       val input = File("$fullPath/out.txt").inputStream()
+       val myFile = File("$fullPath/out.txt")
+       val input = myFile.inputStream()
        val inputAsString = input.bufferedReader().use { it.readText() }
-       if (inputAsString.isNotEmpty()) {
-           lastMsg = inputAsString
+
+       val file_size = (myFile.length() / 1024 / 1024).toString().toInt()
+       if (file_size > 100) {
+           Log.d("fileSize", "clear file")
+           lastMsg = averageKHCount(inputAsString)
+           myFile.writeText("")
+       } else lastMsg = "" // lastmsg weird here and deprecated. broken logic
+       if (lastMsg.isNotEmpty()) {
+           return averageKHCount(lastMsg)
        }
-       File("$fullPath/out.txt").writeText("")
-       return lastMsg + inputAsString // substring?
-       // return curProc!!.getInputStream().readBytes()
+       Log.d("minerOutPut", inputAsString)
+       return averageKHCount(inputAsString) // substring?
    }
     fun getStreamData(): String {
         return getStreamData(curProc!!)
     }
     // var mBufRead: BufferedReader? = null
     private lateinit var fullPath: String
+    private lateinit var arch: String
+    private lateinit var minerdName: String
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
-        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-        actionBar?.hide() // hide action bar
+        arch = System.getProperty("os.arch")
+        minerdName = when (arch) {
+            "aarch64" -> "minerd64"
+            else -> "minerd"
+        }
+        Log.d("minerArch", arch)
 
         initAsset()
         fullPath = ContextWrapper(this).getFilesDir().getPath().toString() // for program minerd ; todo fix weird name
@@ -75,7 +99,7 @@ class LoginActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-
+                start();
             }
         }
         runMiner!!.isClickable = true;
@@ -103,15 +127,15 @@ class LoginActivity : AppCompatActivity() {
         }
     private fun initAsset() {
 
-        val minerd = this.applicationContext.assets.open("minerd")
+        val minerd = this.applicationContext.assets.open(minerdName)
         val c = ContextWrapper(this);
         val PathFiles = c.getFilesDir().getPath();
-        val outFile = File("$PathFiles/minerd")
+        val outFile = File("$PathFiles/$minerdName")
         if (outFile.exists()) {
             outFile.setExecutable(true)
             outFile.setReadable(true)
             outFile.setWritable(false)
-            Runtime.getRuntime().exec("chmod 777 $PathFiles/minerd")
+            Runtime.getRuntime().exec("chmod 777 $PathFiles/$minerdName")
             Log.d("Miner", "assets was before init ${outFile.absoluteFile}")
 
             return
@@ -129,7 +153,7 @@ class LoginActivity : AppCompatActivity() {
         Log.d("Miner", "runs")
         val myScript = File("$fullPath/script.sh")
 
-        val command = "$fullPath/minerd -a gostd -R 5 -T 300 -o  stratum+tcp://pool.gostco.in:3333 -u ${worker} -p ${pass} -t ${threads}" // deprecated
+        val command = "$fullPath/$minerdName -a gostd -R 5 -T 300 -o  stratum+tcp://pool.gostco.in:3333 -u ${worker} -p ${pass} -t ${threads}" // deprecated
         myScript.writeText(command)
         myScript.setExecutable(true)
         // /bin/sh

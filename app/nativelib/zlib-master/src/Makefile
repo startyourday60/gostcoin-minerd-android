@@ -12,7 +12,7 @@
 # To install in $HOME instead of /usr/local, use:
 #    make install prefix=$HOME
 
-CC=/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang
+CC=/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang
 
 CFLAGS=-Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 #CFLAGS=-O -DMAX_WBITS=14 -DMAX_MEM_LEVEL=7
@@ -23,7 +23,7 @@ CFLAGS=-Icurl-android-ios-master/prebuilt-with-ssl/android/include -D_LARGEFILE6
 SFLAGS=-Icurl-android-ios-master/prebuilt-with-ssl/android/include -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 LDFLAGS=-L/.
 TEST_LDFLAGS=$(LDFLAGS) -L. libz.a
-LDSHARED=/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang
+LDSHARED=/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk//ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android21-clang
 CPP=
 
 STATICLIB=libz.a
