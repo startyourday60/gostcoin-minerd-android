@@ -1,0 +1,3 @@
+C:/Users/oruge/AndroidStudioProjects/MyManer/app/nativelib/.cxx/Debug/2t1r3h1o/x86/CMakeFiles/edit_cache.dir
+C:/Users/oruge/AndroidStudioProjects/MyManer/app/nativelib/.cxx/Debug/2t1r3h1o/x86/CMakeFiles/cpuminer.dir
+C:/Users/oruge/AndroidStudioProjects/MyManer/app/nativelib/.cxx/Debug/2t1r3h1o/x86/CMakeFiles/rebuild_cache.dir

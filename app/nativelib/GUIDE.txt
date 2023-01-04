@@ -1,0 +1,3 @@
+ export CC="/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi23-clang
+./configure --host=armv7a --disable-dependency-tracking
+/cygdrive/c/Users/oruge/AppData/Local/Android/Sdk/ndk/25.1.8937393/prebuilt/windows-x86_64/bin/make.exe

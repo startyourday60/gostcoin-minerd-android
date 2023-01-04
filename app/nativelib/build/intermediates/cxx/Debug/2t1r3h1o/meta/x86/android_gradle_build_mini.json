@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\oruge\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\Debug\\2t1r3h1o\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\oruge\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\Debug\\2t1r3h1o\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cpuminer::@6890427a1f51a3e7e1df": {
+      "artifactName": "cpuminer",
+      "abi": "x86",
+      "output": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\build\\intermediates\\cxx\\Debug\\2t1r3h1o\\obj\\x86\\libcpuminer.so",
+      "runtimeFiles": []
+    }
+  }
+}

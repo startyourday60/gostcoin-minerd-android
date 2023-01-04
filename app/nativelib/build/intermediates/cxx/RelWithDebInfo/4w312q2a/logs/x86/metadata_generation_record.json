@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 284784066
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\RelWithDebInfo\\4w312q2a\\x86\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 225592020
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\RelWithDebInfo\\4w312q2a\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1525651224
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\RelWithDebInfo\\4w312q2a\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1866468618
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1549053602
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\RelWithDebInfo\\4w312q2a\\x86\u0027",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1602974932
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"C:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\4w312q2a\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\4w312q2a\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-BC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\.cxx\\\\RelWithDebInfo\\\\4w312q2a\\\\x86\" ^\n  -GNinja\n",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 9360266
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\oruge\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\4w312q2a\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\4w312q2a\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-BC:\\\\Users\\\\oruge\\\\AndroidStudioProjects\\\\MyManer\\\\app\\\\nativelib\\\\.cxx\\\\RelWithDebInfo\\\\4w312q2a\\\\x86\" ^\n  -GNinja\n",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -482161847
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\RelWithDebInfo\\4w312q2a\\x86\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1414367746
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1861399853
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\.cxx\\RelWithDebInfo\\4w312q2a\\x86\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1531415032
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 76673231
+  }
+]

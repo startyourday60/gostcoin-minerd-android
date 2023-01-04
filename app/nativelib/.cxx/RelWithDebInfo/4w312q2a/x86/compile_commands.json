@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/oruge/AndroidStudioProjects/MyManer/app/nativelib/.cxx/RelWithDebInfo/4w312q2a/x86",
+  "command": "C:\\Users\\oruge\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/oruge/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/oruge/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dcpuminer_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\cpuminer.dir\\cpuminer.cpp.o -c C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\cpuminer.cpp",
+  "file": "C:\\Users\\oruge\\AndroidStudioProjects\\MyManer\\app\\nativelib\\src\\main\\cpp\\cpuminer.cpp"
+}
+]

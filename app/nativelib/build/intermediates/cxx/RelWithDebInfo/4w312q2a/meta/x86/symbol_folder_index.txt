@@ -1,0 +1,1 @@
+C:\Users\oruge\AndroidStudioProjects\MyManer\app\nativelib\build\intermediates\cxx\RelWithDebInfo\4w312q2a\obj\x86

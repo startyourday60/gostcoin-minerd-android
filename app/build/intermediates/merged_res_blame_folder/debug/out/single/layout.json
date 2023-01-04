@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-mergeDebugResources-30:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "ru.xmagi.mymaner.app-mergeDebugResources-30:/layout/activity_login.xml",
+        "source": "ru.xmagi.mymaner.app-main-33:/layout/activity_login.xml"
+    }
+]
