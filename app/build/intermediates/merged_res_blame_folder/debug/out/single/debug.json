@@ -8,12 +8,12 @@
         "source": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-pngs-26:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\oruge\\.gradle\\daemon\\7.4\\ru.xmagi.mymaner.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "ru.xmagi.mymaner.app-merged_res-31:/layout_activity_login.xml.flat",

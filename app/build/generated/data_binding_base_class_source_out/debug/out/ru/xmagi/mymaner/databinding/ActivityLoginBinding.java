@@ -22,6 +22,23 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final EditText ServerHost;
+
   @NonNull
   public final ConstraintLayout container;
 
@@ -99,11 +116,12 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final EditText worker;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @Nullable EditText ServerHost,
       @NonNull ConstraintLayout container, @Nullable ProgressBar loading,
       @NonNull EditText password, @Nullable Button runMiner, @Nullable Button startButton,
       @Nullable TextView textView, @NonNull EditText worker) {
     this.rootView = rootView;
+    this.ServerHost = ServerHost;
     this.container = container;
     this.loading = loading;
     this.password = password;
@@ -140,6 +158,9 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ServerHost;
+      EditText ServerHost = ViewBindings.findChildViewById(rootView, id);
+
       ConstraintLayout container = (ConstraintLayout) rootView;
 
       id = R.id.loading;
@@ -166,8 +187,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, container, loading, password,
-          runMiner, startButton, textView, worker);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, ServerHost, container, loading,
+          password, runMiner, startButton, textView, worker);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

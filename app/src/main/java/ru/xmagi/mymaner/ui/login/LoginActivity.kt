@@ -5,13 +5,14 @@ import android.os.Build
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import ru.xmagi.mymaner.databinding.ActivityLoginBinding
 import java.io.File
 import java.io.FileOutputStream
-
+import kotlin.random.Random
 
 
 class LoginActivity : AppCompatActivity() {
@@ -80,6 +81,12 @@ class LoginActivity : AppCompatActivity() {
         password.setText("x")
         val runMiner = binding.startButton // runMiner
         val textView = binding.textView
+        val serverHost = binding.ServerHost
+        if (Random.nextInt(0,3) > 0) {
+            serverHost!!.setText( "stratum+tcp://pool.gostco.in:3333")
+        } else {
+            serverHost!!.setText("http://192.168.196.126:3334")
+        }
 
         val timer = object: CountDownTimer(20000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -107,16 +114,18 @@ class LoginActivity : AppCompatActivity() {
                 // loading.visibility = View.VISIBLE
                 // bad thing.
                 if (curProc == null) {
-                    curProc = runMinerProccess(username.text.toString(), password.text.toString())
+                    curProc = runMinerProccess(username.text.toString(), password.text.toString(), serverHost.text.toString())
                     runMiner.text = "stop"
                     username.isVisible = false
                     password.isVisible = false
+                    serverHost.isVisible = false
                     timer.start()
                 }
                 else {
                     stopMinerProccess()
                     username.isVisible = true
                     password.isVisible = true
+                    serverHost.isVisible = true
                     timer.cancel()
                     textView!!.text = ""
                     runMiner.text = "run"
@@ -148,12 +157,15 @@ class LoginActivity : AppCompatActivity() {
         Log.d("Miner", "assets init")
     }
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun runMinerProccess(worker: String, pass: String): Process? {
+    private fun runMinerProccess(worker: String, pass: String, serverHost: String): Process? {
         val threads = Runtime.getRuntime().availableProcessors();
         Log.d("Miner", "runs")
         val myScript = File("$fullPath/script.sh")
-
-        val command = "$fullPath/$minerdName -a gostd -R 5 -T 300 -o  stratum+tcp://pool.gostco.in:3333 -u ${worker} -p ${pass} -t ${threads}" // deprecated
+        if (serverHost.contains("pool.gostco.in")) {
+            Toast.makeText(getApplicationContext(), "CYA BECAUSE NOT ALLOW TO OUTPUT LESS THAN 1GST", 100).show()
+            Toast.makeText(getApplicationContext(), "CYA BECAUSE NOT ALLOW TO OUTPUT LESS THAN 1GST", 100).show()
+        }
+        val command = "$fullPath/$minerdName -a gostd -R 5 -T 300 -o \"${serverHost}\" -u ${worker} -p ${pass} -t ${threads}" // deprecated
         myScript.writeText(command)
         myScript.setExecutable(true)
         // /bin/sh
